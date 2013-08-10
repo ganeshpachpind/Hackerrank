@@ -1,4 +1,5 @@
 Hackerrank
 ==========
 
-problem statement and solution to codes from HackeRrank  
+Solution to problem statement from HackeRrank  (In JAVA)
+1. 
