@@ -60,17 +60,17 @@ class HelpMike
   }
   public static void count(long  N,long  K)
 	{
-	  long count=0;
-      long groups=(long)N/K;
-	  long pairs=(((groups-1)*(groups))/2);
-      long modrem=N%K;  
+	   long count=0;
+           long groups=(long)N/K;
+	   long pairs=(((groups-1)*(groups))/2);
+           long modrem=N%K;  
 	  
 	  // within range of K
 	  if(K%2==0)
 	  {
 		  count=count+(((K/2)-1)*groups);	
 		  //in gruoup of 2 exact K number of pairs	 
-	      count=count+(K*(pairs));
+	          count=count+(K*(pairs));
 		  //pairs formed within remainder 
 		  if((modrem-(K/2))>0)
 		   {
@@ -80,9 +80,9 @@ class HelpMike
 	  }
 	  else // if K is odd
 	  {
-		  count=count+(((K-1)/2)*groups);
-		  //in gruoup of 2 exact K number of pairs	 
-	      count=count+(K*(pairs));
+		   count=count+(((K-1)/2)*groups);
+		   //in gruoup of 2 exact K number of pairs	 
+	           count=count+(K*(pairs));
 		   //pairs formed within remainder
 		   if((modrem-((K-1)/2))>0)
 		   {
